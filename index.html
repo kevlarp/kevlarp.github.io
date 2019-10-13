@@ -4,7 +4,7 @@
 
 
 function get_password() {
-  orig_pass = prompt("Please enter password for Kim and Kevin's wedding site","");
+  orig_pass = prompt("Please enter password","");
   if (orig_pass!=null && orig_pass!="")
   password = new Array(orig_pass.length);
   for(i=0; i<orig_pass.length; i++) {
@@ -14,9 +14,9 @@ function get_password() {
 }
 
 password = get_password();
-orig = unescape("".concat('homhibl%22d/m%22Y%3CxEh/h%3EP%3Epm%20mh%20%3Cbd%3C%3Ep%20%20mhm%20%20y%3C-%20%20Pm%20mle-%20%20tto%20-pw%20ephee%22frlht%20f%3A%3Ctvrnflasegelb/hk.i.%3Dneehilhtmiv%3Etu%20d.xli%22T/t./ttip%3E%3Cm%3Eam',
-'%20a%20.%3C/-%20yim%3Cm%20m/hd%20%3EDm%21%3E%20m%3CRltilaso%3Econlv%22m%3Caus%20er%3D%200mtp/%3D//ke%3BsarpttCtOu%3A.to/erme%3E.gill/h%21mhmsn%20dnkmmm%3Em%3C/ee%20-a%3Ehm%20%20aoubom%3E%22m%3Dmd%3C%3',
-'Ctmqt'));
+orig = unescape("".concat('hoihibn.d/l%22YmxEmmmmP/pm%3E%22h/mm%3C%3C%3Cp%20%3Ehhamm%20%3C%20%20%20-b%20d%20%3C%20%20ltt%20%20-%21foPpweehersreofh%3Ct%3A%20na//%22elelgthpitv%3D.eenalpdebvatuti./mlmTtt_lia.in%3Emaa%20ph%3Es%3E%',
+'20/%20mie%3C%3Ed%3C/b%3E%20%3EDo/my%20htytml%3C%3Em-man%3ER%22mllme%20%3Cr%20%200mf%3D/%3D/tks%3BsakettCrO.%3A.vhuermo%3Eigilx_h%21mnmhnhd/%22mmmim%20t%20ek%3Ca%3Eh.%20/%20mu--m%3E%22m%3D%20%20m%3Codq',
+'tomc%3C%20ptmlsium'));
 orig = orig.split("");
 
 passnum = orig.length % password.length;
